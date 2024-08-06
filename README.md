@@ -6,12 +6,13 @@ This project is a simple test automation framework designed for mobile applicati
 ### Page Object Model (POM): <br>
 Separates test scripts from the page-specific actions, promoting reusability and maintainability.
 
-### Emulator/Simulator Setup <br>
+## Emulator/Simulator Setup <br>
 iOS Simulator: Use Xcode to set up and start an iOS simulator.
 
 
-Run All Tests:
+## Run all tests:
+
 start appium server <br>
-`appium -p 4724`
+`appium -p 4724` <br> 
 run the script <br>
 `npm run wdio`
